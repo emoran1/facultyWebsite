@@ -1,0 +1,288 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ body {  
+  display: block;
+  position: relative;
+  height:100%;
+}
+
+body::after {
+  content: "";
+ background:url(http://racca.asn.au/wp-content/uploads/2017/08/draft-160132_1280.png) no-repeat;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;  
+  background-size: initial;
+  height: 1300px;
+  width:100%;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* css for index.html */
+#firstPart {
+  float: left;
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-style: dotted;
+  text-align: center;
+}
+
+
+#middle{
+  float: left;
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-style: dotted;
+  text-align: center;
+}
+
+
+.middle2{
+  float: left;
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+  border: dotted;
+}
+
+.image_portrait{
+  float: left;
+  width: 100px;
+  margin: 5px 15px;
+}
+
+ .middle2 p{
+    float: left;
+    width: 200px;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+h3{
+  margin-top: 25px;
+  float: left;
+  width: 200px;
+  font-size: 15px;
+}
+
+
+/* css for button Detail Info */
+.middle2 a:link, .middle2 a:visited {
+  background-color: #fff;
+  color: #000;
+  padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  border-color: #f44336;
+}
+
+.middle2 a:hover, .middle2 a:active {
+  color: white;
+  background-color:  #f44336;
+  text-decoration: underline;
+}
+
+
+/* 4.html */
+body#bodyF{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+/* table css */
+#hoursD {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+#hoursD td, #hoursD th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#hoursD tr:nth-child(even){background-color: #f2f2f2;}
+
+#hoursD tr:hover {background-color: #ddd;}
+
+#hoursD th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/* */
+h3#firsT  {
+  font-size: 25px;
+  width: 100%;
+  float: left;
+}
+
+#Fsec{
+  width: 100%;
+  float: left;
+  height: 180px;
+}
+
+#myImg14{
+  width: 25%;
+  float: left;
+  height: 180px;
+  margin-left: 50px;
+}
+
+#sectionF{
+  width: 70%;
+  float: left;
+  height: 180px;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+#ti{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.sectionsM{
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+
+.sectionM{
+  font-size: 20px;
+  width: 25%;
+}
+
+img.imgs{
+  margin-top:17px; 
+}
+
+.sectionM a:link {
+  text-decoration: none;
+}
+
+ .sectionM a:visited {
+  text-decoration: none;
+}
+
+ .sectionM a:hover{
+  text-decoration: underline;
+}
+
+.sectionM a:active {
+  text-decoration: underline;
+}
